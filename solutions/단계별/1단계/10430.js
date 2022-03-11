@@ -1,0 +1,10 @@
+var fs = require("fs");
+var input = fs.readFileSync("./data.txt").toString().split(" ");
+// var input = fs.readFileSync('/dev/stdin').toString().split(" ");;
+const dataA = Number(input[0]);
+const dataB = Number(input[1]);
+const dataC = Number(input[2]);
+console.log((dataA + dataB) % dataC);
+console.log(((dataA % dataC) + (dataB % dataC)) % dataC);
+console.log((dataA * dataB) % dataC);
+console.log(((dataA % dataC) * (dataB % dataC)) % dataC);
