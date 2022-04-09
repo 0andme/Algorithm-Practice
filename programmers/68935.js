@@ -10,3 +10,9 @@ function solution(n) {
   }
   return res;
 }
+
+// 방법 2
+
+function solution(n) {
+  return parseInt([...n.toString(3)].reverse().join(""), 3);
+}
