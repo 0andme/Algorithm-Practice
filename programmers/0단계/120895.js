@@ -8,6 +8,7 @@ function solution(my_string, num1, num2) {
   strArr[num1] = strArr[num2];
   strArr[num2] = temp;
 
+  // [my_string[num1], my_string[num2]] = [my_string[num2], my_string[num1]];
   answer = strArr.join("");
   return answer;
 }
