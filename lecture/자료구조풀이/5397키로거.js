@@ -1,8 +1,5 @@
 // 5397 키로거
 
-// 문제링크 https://www.acmicpc.net/problem/5397
-// 검색바 https://www.acmicpc.net/problemset
-
 // 백스페이스 입력 -
 // 화살표입력은 < >
 
